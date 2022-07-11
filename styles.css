@@ -1,0 +1,59 @@
+body    {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Bebas Neue",cursive;
+    background-color: rgba(81, 78, 68, 0.128);
+}
+/** Flex Use Order: 1. Display: Flex; 2. Flex-Direction: DECIDE; 3.Flex-Wrap: DECIDE; 4. Jusitfy-content: DECIDE; 5a. Align-items: DECIDE; Can also use 5b. Align-content: DECIDE; **/
+
+/** NAVIGATION BAR CSS AND DESIGN CODE**/
+header nav  {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    width: 100%;
+    /*position: fixed;*/
+}
+
+.logo   {
+    cursor: pointer;
+    height: auto;
+    width: 10%;
+}
+
+.main_navigation_container ul li a  {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 20px;
+    transition:  all 0.3s ease 0s;
+}
+
+.main_navigation_container li   {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.main_navigation_container ul li a:hover  {
+
+    color: rgba(51, 156, 205, 0.852);
+}
+
+.main_navigation_container button   {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+}
+
+.main_navigation_container button:hover   {
+    cursor: pointer;
+    background-color: rgba(0,136,169,0.8);
+    transition:  all 0.3s ease 0s;
+}
+/** NAVIGATION BAR CSS AND DESIGN CODE**/
