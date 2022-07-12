@@ -1,3 +1,7 @@
+*   {
+    text-decoration: none;
+}
+
 body    {
     margin: 0 auto;
     padding: 0;
@@ -11,7 +15,7 @@ header nav  {
     background-color: red;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     height:100px;
@@ -22,12 +26,12 @@ header nav  {
 .logo   {
     cursor: pointer;
     height: auto;
-    width: 10%;
+    width: 100px;
 }
 
 .main_navigation_container ul li a  {
     list-style: none;
-    text-decoration: none;
+
     padding-right: 20px;
     transition:  all 0.3s ease 0s;
 }
@@ -35,10 +39,10 @@ header nav  {
 .main_navigation_container li   {
     display: inline-block;
     padding: 0px 20px;
+    font-size: 30px;
 }
 
 .main_navigation_container ul li a:hover  {
-
     color: rgba(51, 156, 205, 0.852);
 }
 
@@ -57,3 +61,52 @@ header nav  {
     transition:  all 0.3s ease 0s;
 }
 /** NAVIGATION BAR CSS AND DESIGN CODE**/
+
+/**Design Formatting of content of the page**/
+
+H1   {
+    font-size: 50px;
+    margin-top: 0;
+    align-self: center;
+    height: 10px;
+}
+
+.articlesection , .Intro {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/**Design Formatting of content of the page**/
+
+
+/** Footer/Copyright Agreement of the page**/
+
+footer  {
+    align-self: flex-end;
+    height: fit-content;
+    padding-top: 60px;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+footer a    {
+    margin-top: 0;
+}
+
+footer  p   {
+    height: 10%;
+}
+
+footer a, footer p  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+/** Footer/Copyright Agreement of the page**/
